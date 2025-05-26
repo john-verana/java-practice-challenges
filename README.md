@@ -7,7 +7,7 @@ I'm currently learning Java from scratch and using this repo to track my progres
 
 ## 📅 Weekly Focus
 
-### 🟢 Week 1: While Loops
+### ✅ Week 1: While Loops
 - ✅ Learn how to repeat logic with a `while` loop
 - ✅ Apply it in basic interactive apps
 - ✅ Upload at least **two** working projects
@@ -39,7 +39,7 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ---
 
 ### 🏧 ATM Dispenser (While Loop)
-**File:** `ATMDispenser.java` *(to be uploaded)*
+**File:** [`ATMDispenser.java`](ATMDispenser.java)
 
 🧠 **Description:**
 - Prompts the user to enter an amount (must be a multiple of 20)
@@ -49,7 +49,7 @@ I'm currently learning Java from scratch and using this repo to track my progres
 📌 **Practices:**
 - While loops
 - Integer operations
-- User input and condition checks
+- Scanner input handling
 
 ---
 
