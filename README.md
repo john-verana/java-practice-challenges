@@ -10,54 +10,61 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ### ✅ Week 1: While Loops
 - ✅ Learn how to repeat logic with a `while` loop
 - ✅ Apply it in basic interactive apps
-- ✅ Upload at least **two** working projects
+- ✅ Upload at least two working projects
 - ✅ Practice user interaction and loop conditions
 
-### 🔜 Week 2: User Input (Scanner)
-- ⏳ Learn how to take input from users using `Scanner`
-- ⏳ Build basic input/output programs
-- ⏳ Add validations and condition checks
+### ✅ Week 2: User Input (Scanner)
+- ✅ Learn how to take input from users using `Scanner`
+- ✅ Build basic input/output programs
+- ✅ Handle login attempts with logic and string comparison
 
 ---
 
 ## 📁 Projects and Challenges
 
 ### 🔁 Vending Machine (While Loop)
-**File:** [`VendingMachine.java`](VendingMachine.java)
+**File:** [`Week1_Loops/VendingMachine.java`](Week1_Loops/VendingMachine.java)
 
 🧠 **Description:**
 - Prompts the user for an item price
-- Keeps asking for coins until total matches or exceeds the price
-- Shows how much is still due at every step
-- Dispenses the item and returns the change
+- Accepts coin input until total meets the price
+- Shows remaining amount after each coin
+- Dispenses item and gives change
 
 📌 **Practices:**
 - While loops
 - Arithmetic logic
-- Basic control flow
+- User input
 
 ---
 
 ### 🏧 ATM Dispenser (While Loop)
-**File:** [`ATMDispenser.java`](ATMDispenser.java)
+**File:** [`Week1_Loops/ATMDispenser.java`](Week1_Loops/ATMDispenser.java)
 
 🧠 **Description:**
-- Prompts the user to enter an amount (must be a multiple of 20)
-- Uses a `while` loop to dispense $20 bills until the amount is fully broken down
-- Shows the remaining amount after each bill
+- Prompts user to enter withdrawal amount (multiple of 20)
+- Dispenses $20 bills using a `while` loop
+- Tracks and shows bills dispensed + remaining amount
 
 📌 **Practices:**
 - While loops
-- Integer operations
-- Scanner input handling
+- Integer math
+- Loop-based breakdown
 
 ---
 
-## 🛠 Upcoming Files
-You'll soon see more files here like:
-- `UserAgeChecker.java`
-- `LoginPrompt.java`
-- `NameRepeater.java`
+### 🔐 Login Prompt (Scanner Input)
+**File:** [`Week2_Scanner/LoginPrompt.java`](Week2_Scanner/LoginPrompt.java)
+
+🧠 **Description:**
+- Takes username and password input
+- Verifies login with correct credentials using `equals()`
+- Shows success or error message on the spot
+
+📌 **Practices:**
+- Scanner input
+- String comparison
+- Basic condition checks
 
 ---
 
