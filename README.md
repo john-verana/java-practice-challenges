@@ -11,12 +11,16 @@ I'm currently learning Java from scratch and using this repo to track my progres
 - ✅ Learn how to repeat logic with a `while` loop
 - ✅ Apply it in basic interactive apps
 - ✅ Upload at least two working projects
-- ✅ Practice user interaction and loop conditions
 
 ### ✅ Week 2: User Input (Scanner)
 - ✅ Learn how to take input from users using `Scanner`
 - ✅ Build basic input/output programs
 - ✅ Handle login attempts with logic and string comparison
+
+### 🟢 Week 3: Conditional Statements
+- ✅ Practice using `if`, `else if`, and `else`
+- ✅ Write code that responds to user input with logic
+- ⏳ Add multiple outcomes based on conditions
 
 ---
 
@@ -25,46 +29,24 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ### 🔁 Vending Machine (While Loop)
 **File:** [`Week1_Loops/VendingMachine.java`](Week1_Loops/VendingMachine.java)
 
-🧠 **Description:**
-- Prompts the user for an item price
-- Accepts coin input until total meets the price
-- Shows remaining amount after each coin
-- Dispenses item and gives change
-
-📌 **Practices:**
-- While loops
-- Arithmetic logic
-- User input
-
----
-
 ### 🏧 ATM Dispenser (While Loop)
 **File:** [`Week1_Loops/ATMDispenser.java`](Week1_Loops/ATMDispenser.java)
-
-🧠 **Description:**
-- Prompts user to enter withdrawal amount (multiple of 20)
-- Dispenses $20 bills using a `while` loop
-- Tracks and shows bills dispensed + remaining amount
-
-📌 **Practices:**
-- While loops
-- Integer math
-- Loop-based breakdown
-
----
 
 ### 🔐 Login Prompt (Scanner Input)
 **File:** [`Week2_Scanner/LoginPrompt.java`](Week2_Scanner/LoginPrompt.java)
 
+### 👴 Age-Based Advice (If-Else If)
+**File:** [`Week3_Conditions/IfElseIf.java`](Week3_Conditions/IfElseIf.java)
+
 🧠 **Description:**
-- Takes username and password input
-- Verifies login with correct credentials using `equals()`
-- Shows success or error message on the spot
+- Asks the user to enter their age
+- Uses multiple `if` and `else if` branches to give personalized output
+- Fun logic based on age (drinking/smoking humor)
 
 📌 **Practices:**
-- Scanner input
-- String comparison
-- Basic condition checks
+- Conditional branching (`if`, `else if`, `else`)
+- Numeric comparisons
+- Scanner input + control flow
 
 ---
 
