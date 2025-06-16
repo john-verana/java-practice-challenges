@@ -8,19 +8,24 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ## 📅 Weekly Focus
 
 ### ✅ Week 1: While Loops
-- ✅ Learn how to repeat logic with a `while` loop
-- ✅ Apply it in basic interactive apps
-- ✅ Upload at least two working projects
+- ✅ Learn how to repeat logic with a `while` loop  
+- ✅ Apply it in basic interactive apps  
+- ✅ Upload at least two working projects  
 
 ### ✅ Week 2: User Input (Scanner)
-- ✅ Learn how to take input from users using `Scanner`
-- ✅ Build basic input/output programs
-- ✅ Handle login attempts with logic and string comparison
+- ✅ Learn how to take input from users using `Scanner`  
+- ✅ Build basic input/output programs  
+- ✅ Handle login attempts with logic and string comparison  
 
 ### 🟢 Week 3: Conditional Statements
-- ✅ Practice using `if`, `else if`, and `else`
-- ✅ Write code that responds to user input with logic
-- ⏳ Add multiple outcomes based on conditions
+- ✅ Practice using `if`, `else if`, and `else`  
+- ✅ Write code that responds to user input with logic  
+- ⏳ Add multiple outcomes based on conditions  
+
+### 🔵 Week 4: Methods
+- ⏳ Define and call custom methods  
+- ⏳ Break tasks into reusable functions  
+- ⏳ Implement a payroll computation system  
 
 ---
 
@@ -39,14 +44,43 @@ I'm currently learning Java from scratch and using this repo to track my progres
 **File:** [`Week3_Conditions/IfElseIf.java`](Week3_Conditions/IfElseIf.java)
 
 🧠 **Description:**
-- Asks the user to enter their age
-- Uses multiple `if` and `else if` branches to give personalized output
-- Fun logic based on age (drinking/smoking humor)
+- Asks the user to enter their age  
+- Uses multiple `if` and `else if` branches to give personalized output  
+- Fun logic based on age (drinking/smoking humor)  
 
 📌 **Practices:**
-- Conditional branching (`if`, `else if`, `else`)
-- Numeric comparisons
-- Scanner input + control flow
+- Conditional branching (`if`, `else if`, `else`)  
+- Numeric comparisons  
+- Scanner input + control flow  
+
+---
+
+### 🧮 Payroll System (Methods)
+**File:** [`Week4_Methods/Payroll.java`](Week4_Methods/Payroll.java)
+
+🧠 **Description:**
+- **User Inputs:**  
+  - Basic Pay  
+  - Work Days  
+  - Hours per Day  
+  - Allowance  
+  - Premium  
+  - Loan Deduction  
+  - Overtime Hours  
+- **Calculations via methods:**  
+  - `perHour(basicPay, workDays, workHours)` → hourly rate  
+  - `perDay(basicPay, workDays)` → daily rate  
+  - `addMonthly(basicPay, allowance, premium)` → monthly pay  
+  - `calculateTax(basicPay, taxRate)` → tax amount  
+  - `calculateNetPay(monthlyPay, tax)` → net pay  
+  - `totalPay(monthlyPay, tax, loan)` → final take-home  
+- **Formatting:** Outputs formatted as ₱ with two decimal places  
+
+📌 **Practices:**
+- Method creation & calls  
+- Parameter passing & return values  
+- Modular code design  
+- Scanner input & `System.out.printf`  
 
 ---
 
