@@ -80,7 +80,28 @@ I'm currently learning Java from scratch and using this repo to track my progres
 - Method creation & calls  
 - Parameter passing & return values  
 - Modular code design  
-- Scanner input & `System.out.printf`  
+- Scanner input & `System.out.printf`
+
+  🎬 Movie Info (Constructors)
+File: Week5_Constructors/Movie.java & Week5_Constructors/Constructor.java
+
+🧠 Description:
+
+Demonstrates how to create a constructor to initialize object properties
+
+Uses this keyword for assigning parameter values to fields
+
+Creates multiple Movie objects and displays their details
+
+📌 Practices:
+
+Constructor creation
+
+Object instantiation
+
+this keyword usage
+
+Method calling from another class
 
 ---
 
