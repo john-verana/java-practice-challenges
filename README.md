@@ -1,150 +1,139 @@
-💻 Java Practice Challenges
+
+# 💻 Java Practice Challenges
+
 This repository contains my weekly Java coding practice challenges.
 I'm currently learning Java from scratch and using this repo to track my progress and build a strong GitHub portfolio as I grow.
 
-📅 Weekly Focus
-✅ Week 1: While Loops
-✅ Learn how to repeat logic with a while loop
+---
 
-✅ Apply it in basic interactive apps
+## 📅 Weekly Focus
 
-✅ Upload at least two working projects
+### ✅ Week 1: While Loops
 
-✅ Week 2: User Input (Scanner)
-✅ Learn how to take input from users using Scanner
+* ✅ Learn how to repeat logic with a `while` loop
+* ✅ Apply it in basic interactive apps
+* ✅ Upload at least two working projects
 
-✅ Build basic input/output programs
+### ✅ Week 2: User Input (Scanner)
 
-✅ Handle login attempts with logic and string comparison
+* ✅ Learn how to take input from users using `Scanner`
+* ✅ Build basic input/output programs
+* ✅ Handle login attempts with logic and string comparison
 
-🟢 Week 3: Conditional Statements
-✅ Practice using if, else if, and else
+### 🟢 Week 3: Conditional Statements
 
-✅ Write code that responds to user input with logic
+* ✅ Practice using `if`, `else if`, and `else`
+* ✅ Write code that responds to user input with logic
+* ⏳ Add multiple outcomes based on conditions
 
-⏳ Add multiple outcomes based on conditions
+### 🔵 Week 4: Methods
 
-🔵 Week 4: Methods
-⏳ Define and call custom methods
+* ⏳ Define and call custom methods
+* ⏳ Break tasks into reusable functions
+* ⏳ Implement a payroll computation system
 
-⏳ Break tasks into reusable functions
+### 🟣 Week 5: Constructors
 
-⏳ Implement a payroll computation system
+* ✅ Learn how to define and use constructors in Java
+* ✅ Understand `this` keyword for assigning instance variables
+* ✅ Create objects with pre-initialized values
+* ✅ Display object data using methods
 
-🟣 Week 5: Constructors
-✅ Learn how to define and use constructors in Java
+---
 
-✅ Understand this keyword for assigning instance variables
+## 📁 Projects and Challenges
 
-✅ Create objects with pre-initialized values
+### 🔁 Vending Machine (While Loop)
 
-✅ Display object data using methods
+**File:** [`Week1_Loops/VendingMachine.java`](Week1_Loops/VendingMachine.java)
 
-📁 Projects and Challenges
-🔁 Vending Machine (While Loop)
-File: Week1_Loops/VendingMachine.java
+### 🏧 ATM Dispenser (While Loop)
 
-🏧 ATM Dispenser (While Loop)
-File: Week1_Loops/ATMDispenser.java
+**File:** [`Week1_Loops/ATMDispenser.java`](Week1_Loops/ATMDispenser.java)
 
-🔐 Login Prompt (Scanner Input)
-File: Week2_Scanner/LoginPrompt.java
+### 🔐 Login Prompt (Scanner Input)
 
-👴 Age-Based Advice (If-Else If)
-File: Week3_Conditions/IfElseIf.java
+**File:** [`Week2_Scanner/LoginPrompt.java`](Week2_Scanner/LoginPrompt.java)
 
-🧠 Description:
+### 👴 Age-Based Advice (If-Else If)
 
-Asks the user to enter their age
+**File:** [`Week3_Conditions/IfElseIf.java`](Week3_Conditions/IfElseIf.java)
 
-Uses multiple if and else if branches to give personalized output
+🧠 **Description:**
 
-Fun logic based on age (drinking/smoking humor)
+* Asks the user to enter their age
+* Uses multiple `if` and `else if` branches to give personalized output
+* Fun logic based on age (drinking/smoking humor)
 
-📌 Practices:
+📌 **Practices:**
 
-Conditional branching (if, else if, else)
+* Conditional branching (`if`, `else if`, `else`)
+* Numeric comparisons
+* Scanner input + control flow
 
-Numeric comparisons
+### 🧮 Payroll System (Methods)
 
-Scanner input + control flow
+**File:** [`Week4_Methods/Payroll.java`](Week4_Methods/Payroll.java)
 
-🧮 Payroll System (Methods)
-File: Week4_Methods/Payroll.java
+🧠 **Description:**
 
-🧠 Description:
+**User Inputs:**
 
-User Inputs:
+* Basic Pay
+* Work Days
+* Hours per Day
+* Allowance
+* Premium
+* Loan Deduction
+* Overtime Hours
 
-Basic Pay
+**Calculations via methods:**
 
-Work Days
+* `perHour(basicPay, workDays, workHours)` → hourly rate
+* `perDay(basicPay, workDays)` → daily rate
+* `addMonthly(basicPay, allowance, premium)` → monthly pay
+* `calculateTax(basicPay, taxRate)` → tax amount
+* `calculateNetPay(monthlyPay, tax)` → net pay
+* `totalPay(monthlyPay, tax, loan)` → final take-home
 
-Hours per Day
+**Formatting:** Outputs formatted as ₱ with two decimal places
 
-Allowance
+📌 **Practices:**
 
-Premium
+* Method creation & calls
+* Parameter passing & return values
+* Modular code design
+* Scanner input & `System.out.printf`
 
-Loan Deduction
+### 🎬 Movie Info (Constructors)
 
-Overtime Hours
+**Files:**
 
-Calculations via methods:
+* [`Week5_Constructors/Movie.java`](Week5_Constructors/Movie.java)
+* [`Week5_Constructors/Constructor.java`](Week5_Constructors/Constructor.java)
 
-perHour(basicPay, workDays, workHours) → hourly rate
+🧠 **Description:**
 
-perDay(basicPay, workDays) → daily rate
+* Demonstrates how to use constructors to initialize object properties
+* Uses the `this` keyword to assign values to instance variables
+* Creates multiple objects with different data
+* Displays movie details using a method
 
-addMonthly(basicPay, allowance, premium) → monthly pay
+📌 **Practices:**
 
-calculateTax(basicPay, taxRate) → tax amount
+* Defining constructors
+* Using `this` keyword
+* Object creation and initialization
+* Method calls on objects
 
-calculateNetPay(monthlyPay, tax) → net pay
+---
 
-totalPay(monthlyPay, tax, loan) → final take-home
+## 👋 About Me
 
-Formatting: Outputs formatted as ₱ with two decimal places
-
-📌 Practices:
-
-Method creation & calls
-
-Parameter passing & return values
-
-Modular code design
-
-Scanner input & System.out.printf
-
-🎬 Movie Info (Constructors)
-Files:
-
-Week5_Constructors/Movie.java
-
-Week5_Constructors/Constructor.java
-
-🧠 Description:
-
-Demonstrates how to use constructors to initialize object properties
-
-Uses the this keyword to assign values to instance variables
-
-Creates multiple objects with different data
-
-Displays movie details using a method
-
-📌 Practices:
-
-Defining constructors
-
-Using this keyword
-
-Object creation and initialization
-
-Method calls on objects
-
-👋 About Me
-Hi! I’m John, a self-taught aspiring Java backend/web developer.
+Hi! I’m **John**, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
 
-✨ More files added every week. Follow along as I level up in Java!
+---
+
+✨ *More files added every week. Follow along as I level up in Java!*
+
