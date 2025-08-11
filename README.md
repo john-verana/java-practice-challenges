@@ -1,115 +1,150 @@
-# 💻 Java Practice Challenges
-
-This repository contains my weekly Java coding practice challenges.  
+💻 Java Practice Challenges
+This repository contains my weekly Java coding practice challenges.
 I'm currently learning Java from scratch and using this repo to track my progress and build a strong GitHub portfolio as I grow.
 
----
+📅 Weekly Focus
+✅ Week 1: While Loops
+✅ Learn how to repeat logic with a while loop
 
-## 📅 Weekly Focus
+✅ Apply it in basic interactive apps
 
-### ✅ Week 1: While Loops
-- ✅ Learn how to repeat logic with a `while` loop  
-- ✅ Apply it in basic interactive apps  
-- ✅ Upload at least two working projects  
+✅ Upload at least two working projects
 
-### ✅ Week 2: User Input (Scanner)
-- ✅ Learn how to take input from users using `Scanner`  
-- ✅ Build basic input/output programs  
-- ✅ Handle login attempts with logic and string comparison  
+✅ Week 2: User Input (Scanner)
+✅ Learn how to take input from users using Scanner
 
-### 🟢 Week 3: Conditional Statements
-- ✅ Practice using `if`, `else if`, and `else`  
-- ✅ Write code that responds to user input with logic  
-- ⏳ Add multiple outcomes based on conditions  
+✅ Build basic input/output programs
 
-### 🔵 Week 4: Methods
-- ⏳ Define and call custom methods  
-- ⏳ Break tasks into reusable functions  
-- ⏳ Implement a payroll computation system  
+✅ Handle login attempts with logic and string comparison
 
----
+🟢 Week 3: Conditional Statements
+✅ Practice using if, else if, and else
 
-## 📁 Projects and Challenges
+✅ Write code that responds to user input with logic
 
-### 🔁 Vending Machine (While Loop)
-**File:** [`Week1_Loops/VendingMachine.java`](Week1_Loops/VendingMachine.java)
+⏳ Add multiple outcomes based on conditions
 
-### 🏧 ATM Dispenser (While Loop)
-**File:** [`Week1_Loops/ATMDispenser.java`](Week1_Loops/ATMDispenser.java)
+🔵 Week 4: Methods
+⏳ Define and call custom methods
 
-### 🔐 Login Prompt (Scanner Input)
-**File:** [`Week2_Scanner/LoginPrompt.java`](Week2_Scanner/LoginPrompt.java)
+⏳ Break tasks into reusable functions
 
-### 👴 Age-Based Advice (If-Else If)
-**File:** [`Week3_Conditions/IfElseIf.java`](Week3_Conditions/IfElseIf.java)
+⏳ Implement a payroll computation system
 
-🧠 **Description:**
-- Asks the user to enter their age  
-- Uses multiple `if` and `else if` branches to give personalized output  
-- Fun logic based on age (drinking/smoking humor)  
+🟣 Week 5: Constructors
+✅ Learn how to define and use constructors in Java
 
-📌 **Practices:**
-- Conditional branching (`if`, `else if`, `else`)  
-- Numeric comparisons  
-- Scanner input + control flow  
+✅ Understand this keyword for assigning instance variables
 
----
+✅ Create objects with pre-initialized values
 
-### 🧮 Payroll System (Methods)
-**File:** [`Week4_Methods/Payroll.java`](Week4_Methods/Payroll.java)
+✅ Display object data using methods
 
-🧠 **Description:**
-- **User Inputs:**  
-  - Basic Pay  
-  - Work Days  
-  - Hours per Day  
-  - Allowance  
-  - Premium  
-  - Loan Deduction  
-  - Overtime Hours  
-- **Calculations via methods:**  
-  - `perHour(basicPay, workDays, workHours)` → hourly rate  
-  - `perDay(basicPay, workDays)` → daily rate  
-  - `addMonthly(basicPay, allowance, premium)` → monthly pay  
-  - `calculateTax(basicPay, taxRate)` → tax amount  
-  - `calculateNetPay(monthlyPay, tax)` → net pay  
-  - `totalPay(monthlyPay, tax, loan)` → final take-home  
-- **Formatting:** Outputs formatted as ₱ with two decimal places  
+📁 Projects and Challenges
+🔁 Vending Machine (While Loop)
+File: Week1_Loops/VendingMachine.java
 
-📌 **Practices:**
-- Method creation & calls  
-- Parameter passing & return values  
-- Modular code design  
-- Scanner input & `System.out.printf`
+🏧 ATM Dispenser (While Loop)
+File: Week1_Loops/ATMDispenser.java
 
-  🎬 Movie Info (Constructors)
-File: Week5_Constructors/Movie.java & Week5_Constructors/Constructor.java
+🔐 Login Prompt (Scanner Input)
+File: Week2_Scanner/LoginPrompt.java
+
+👴 Age-Based Advice (If-Else If)
+File: Week3_Conditions/IfElseIf.java
 
 🧠 Description:
 
-Demonstrates how to create a constructor to initialize object properties
+Asks the user to enter their age
 
-Uses this keyword for assigning parameter values to fields
+Uses multiple if and else if branches to give personalized output
 
-Creates multiple Movie objects and displays their details
+Fun logic based on age (drinking/smoking humor)
 
 📌 Practices:
 
-Constructor creation
+Conditional branching (if, else if, else)
 
-Object instantiation
+Numeric comparisons
 
-this keyword usage
+Scanner input + control flow
 
-Method calling from another class
+🧮 Payroll System (Methods)
+File: Week4_Methods/Payroll.java
 
----
+🧠 Description:
 
-## 👋 About Me
+User Inputs:
 
-Hi! I’m **John**, a self-taught aspiring Java backend/web developer.  
+Basic Pay
+
+Work Days
+
+Hours per Day
+
+Allowance
+
+Premium
+
+Loan Deduction
+
+Overtime Hours
+
+Calculations via methods:
+
+perHour(basicPay, workDays, workHours) → hourly rate
+
+perDay(basicPay, workDays) → daily rate
+
+addMonthly(basicPay, allowance, premium) → monthly pay
+
+calculateTax(basicPay, taxRate) → tax amount
+
+calculateNetPay(monthlyPay, tax) → net pay
+
+totalPay(monthlyPay, tax, loan) → final take-home
+
+Formatting: Outputs formatted as ₱ with two decimal places
+
+📌 Practices:
+
+Method creation & calls
+
+Parameter passing & return values
+
+Modular code design
+
+Scanner input & System.out.printf
+
+🎬 Movie Info (Constructors)
+Files:
+
+Week5_Constructors/Movie.java
+
+Week5_Constructors/Constructor.java
+
+🧠 Description:
+
+Demonstrates how to use constructors to initialize object properties
+
+Uses the this keyword to assign values to instance variables
+
+Creates multiple objects with different data
+
+Displays movie details using a method
+
+📌 Practices:
+
+Defining constructors
+
+Using this keyword
+
+Object creation and initialization
+
+Method calls on objects
+
+👋 About Me
+Hi! I’m John, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
 
----
-
-✨ _More files added every week. Follow along as I level up in Java!_
+✨ More files added every week. Follow along as I level up in Java!
