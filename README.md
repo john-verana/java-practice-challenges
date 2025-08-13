@@ -34,10 +34,13 @@ I'm currently learning Java from scratch and using this repo to track my progres
 
 ### 🟣 Week 5: Constructors
 
-* ✅ Learn how to define and use constructors in Java
-* ✅ Understand `this` keyword for assigning instance variables
-* ✅ Create objects with pre-initialized values
-* ✅ Display object data using methods
+* ✅ Learn how to define and use constructors
+* ✅ Understand how `this` keyword works for initializing object fields
+* ✅ Create objects with different values using constructors
+* ✅ Build multiple examples:
+
+  * `Constructor.java` & `Movie.java` → Movie information display using constructors
+  * `ConstructorEmployee.java` & `Employee.java` → Employee details creation and display using constructors
 
 ---
 
@@ -76,7 +79,6 @@ I'm currently learning Java from scratch and using this repo to track my progres
 **File:** [`Week4_Methods/Payroll.java`](Week4_Methods/Payroll.java)
 
 🧠 **Description:**
-
 **User Inputs:**
 
 * Basic Pay
@@ -105,26 +107,19 @@ I'm currently learning Java from scratch and using this repo to track my progres
 * Modular code design
 * Scanner input & `System.out.printf`
 
-### 🎬 Movie Info (Constructors)
+### 🎬 Movie Information (Constructors)
 
-**Files:**
+**Files:** [`Week5_Constructors/Constructor.java`](Week5_Constructors/Constructor.java), [`Week5_Constructors/Movie.java`](Week5_Constructors/Movie.java)
 
-* [`Week5_Constructors/Movie.java`](Week5_Constructors/Movie.java)
-* [`Week5_Constructors/Constructor.java`](Week5_Constructors/Constructor.java)
+* Creates movie objects with title, director, and year using constructors
+* Displays the information using a method
 
-🧠 **Description:**
+### 👔 Employee Information (Constructors)
 
-* Demonstrates how to use constructors to initialize object properties
-* Uses the `this` keyword to assign values to instance variables
-* Creates multiple objects with different data
-* Displays movie details using a method
+**Files:** [`Week5_Constructors/ConstructorEmployee.java`](Week5_Constructors/ConstructorEmployee.java), [`Week5_Constructors/Employee.java`](Week5_Constructors/Employee.java)
 
-📌 **Practices:**
-
-* Defining constructors
-* Using `this` keyword
-* Object creation and initialization
-* Method calls on objects
+* Creates employee objects with name, position, and salary using constructors
+* Displays employee details using a method
 
 ---
 
@@ -137,3 +132,4 @@ This repository is my personal learning space to share progress, stay consistent
 
 ✨ *More files added every week. Follow along as I level up in Java!*
 
+---
