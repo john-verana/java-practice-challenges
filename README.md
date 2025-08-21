@@ -119,4 +119,3 @@ File: Week6_Arrays/ArraysSample.java
 👋 About Me
 Hi! I’m John, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
-
