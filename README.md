@@ -1,121 +1,149 @@
 💻 Java Practice Challenges
+
 This repository contains my weekly Java coding practice challenges.
 I'm currently learning Java from scratch and using this repo to track my progress and build a strong GitHub portfolio as I grow.
 
 📅 Weekly Focus
 ✅ Week 1: While Loops
+
 ✅ Learn how to repeat logic with a while loop
+
 ✅ Apply it in basic interactive apps
+
 ✅ Upload at least two working projects
 
 ✅ Week 2: User Input (Scanner)
+
 ✅ Learn how to take input from users using Scanner
+
 ✅ Build basic input/output programs
+
 ✅ Handle login attempts with logic and string comparison
 
 🟢 Week 3: Conditional Statements
+
 ✅ Practice using if, else if, and else
+
 ✅ Write code that responds to user input with logic
+
 ⏳ Add multiple outcomes based on conditions
 
 🔵 Week 4: Methods
+
 ⏳ Define and call custom methods
+
 ⏳ Break tasks into reusable functions
+
 ⏳ Implement a payroll computation system
 
 🟣 Week 5: Constructors
-✅ Learn how to create constructors in classes
-✅ Understand how `this` keyword is used
-✅ Build objects with data initialized by constructors
-✅ Practice with `Movie` and `Employee` examples
 
-🟡 Week 6: Arrays
-✅ Learn how to store multiple values in a single variable
-✅ Access elements using indexes
-✅ Loop through arrays using `for` and enhanced `for-each` loops
-✅ Build sample programs like listing movies
+✅ Learn how to define and use constructors
+
+✅ Understand how this keyword works for initializing object fields
+
+✅ Create objects with different values using constructors
+
+✅ Build multiple examples:
+
+Constructor.java & Movie.java → Movie information display using constructors
+
+ConstructorEmployee.java & Employee.java → Employee details creation and display using constructors
 
 📁 Projects and Challenges
-🔁 Vending Machine (While Loop)  
-File: Week1_Loops/VendingMachine.java  
+🔁 Vending Machine (While Loop)
 
-🏧 ATM Dispenser (While Loop)  
-File: Week1_Loops/ATMDispenser.java  
+File: Week1_Loops/VendingMachine.java
 
-🔐 Login Prompt (Scanner Input)  
-File: Week2_Scanner/LoginPrompt.java  
+🏧 ATM Dispenser (While Loop)
 
-👴 Age-Based Advice (If-Else If)  
-File: Week3_Conditions/IfElseIf.java  
+File: Week1_Loops/ATMDispenser.java
 
-🧠 Description:  
-- Asks the user to enter their age  
-- Uses multiple if and else if branches to give personalized output  
-- Fun logic based on age (drinking/smoking humor)  
+🔐 Login Prompt (Scanner Input)
 
-📌 Practices:  
-- Conditional branching (if, else if, else)  
-- Numeric comparisons  
-- Scanner input + control flow  
+File: Week2_Scanner/LoginPrompt.java
 
-🧮 Payroll System (Methods)  
-File: Week4_Methods/Payroll.java  
+👴 Age-Based Advice (If-Else If)
 
-🧠 Description:  
-User Inputs:  
-- Basic Pay  
-- Work Days  
-- Hours per Day  
-- Allowance  
-- Premium  
-- Loan Deduction  
-- Overtime Hours  
+File: Week3_Conditions/IfElseIf.java
 
-Calculations via methods:  
-- `perHour(basicPay, workDays, workHours)` → hourly rate  
-- `perDay(basicPay, workDays)` → daily rate  
-- `addMonthly(basicPay, allowance, premium)` → monthly pay  
-- `calculateTax(basicPay, taxRate)` → tax amount  
-- `calculateNetPay(monthlyPay, tax)` → net pay  
-- `totalPay(monthlyPay, tax, loan)` → final take-home  
+🧠 Description:
 
-Formatting: Outputs formatted as ₱ with two decimal places  
+Asks the user to enter their age
 
-📌 Practices:  
-- Method creation & calls  
-- Parameter passing & return values  
-- Modular code design  
-- Scanner input & System.out.printf  
+Uses multiple if and else if branches to give personalized output
 
-🎬 Movie Info (Constructors)  
-Files: Week5_Constructors/Movie.java, Week5_Constructors/Constructor.java  
+Fun logic based on age (drinking/smoking humor)
 
-👨‍💼 Employee Info (Constructors)  
-Files: Week5_Constructors/Employee.java, Week5_Constructors/ConstructorEmployee.java  
+📌 Practices:
 
-🧠 Description:  
-- Define classes (`Movie`, `Employee`)  
-- Use constructors to initialize object data  
-- Display object info with methods  
+Conditional branching (if, else if, else)
 
-📌 Practices:  
-- Constructors  
-- Object creation with parameters  
-- `this` keyword usage  
+Numeric comparisons
 
-🎥 Arrays Sample (Movies List)  
-File: Week6_Arrays/ArraysSample.java  
+Scanner input + control flow
 
-🧠 Description:  
-- Store and display multiple movie names  
-- Access array elements using indexes  
-- Loop through arrays with `for` and `for-each`  
+🧮 Payroll System (Methods)
 
-📌 Practices:  
-- Arrays  
-- Index access  
-- Iterating with loops  
+File: Week4_Methods/Payroll.java
 
-👋 About Me
-Hi! I’m John, a self-taught aspiring Java backend/web developer.
-This repository is my personal learning space to share progress, stay consistent, and grow publicly.
+🧠 Description:
+User Inputs:
+
+Basic Pay
+
+Work Days
+
+Hours per Day
+
+Allowance
+
+Premium
+
+Loan Deduction
+
+Overtime Hours
+
+Calculations via methods:
+
+perHour(basicPay, workDays, workHours) → hourly rate
+
+perDay(basicPay, workDays) → daily rate
+
+addMonthly(basicPay, allowance, premium) → monthly pay
+
+calculateTax(basicPay, taxRate) → tax amount
+
+calculateNetPay(monthlyPay, tax) → net pay
+
+totalPay(monthlyPay, tax, loan) → final take-home
+
+Formatting: Outputs formatted as ₱ with two decimal places
+
+📌 Practices:
+
+Method creation & calls
+
+Parameter passing & return values
+
+Modular code design
+
+Scanner input & System.out.printf
+
+🎬 Movie Information (Constructors)
+
+Files: Week5_Constructors/Constructor.java
+, Week5_Constructors/Movie.java
+
+Creates movie objects with title, director, and year using constructors
+
+Displays the information using a method
+
+👔 Employee Information (Constructors)
+
+Files: Week5_Constructors/ConstructorEmployee.java
+, Week5_Constructors/Employee.java
+
+Creates employee objects with name, position, and salary using constructors
+
+Displays employee details using a method
