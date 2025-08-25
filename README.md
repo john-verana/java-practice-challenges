@@ -35,18 +35,24 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ✅ Loop through arrays using `for` and enhanced `for-each` loops
 ✅ Build sample programs like listing movies
 
+🔴 Week 7: Static Keyword
+✅ Learn the difference between instance and static variables
+✅ Understand how static fields are shared across all objects
+✅ Change a static field and see it reflected in all instances
+✅ Practice with Employee → StaticExample program
+
 📁 Projects and Challenges
 🔁 Vending Machine (While Loop)  
-**File:** [Week1_Loops/VendingMachine.java](Week1_Loops/VendingMachine.java)
+**File:** [Week1_Loops/VendingMachine.java](Week1_Loops/VendingMachine.java)  
 
 🏧 ATM Dispenser (While Loop)  
-**File:** [Week1_Loops/ATMDispenser.java](Week1_Loops/ATMDispenser.java)
+**File:** [Week1_Loops/ATMDispenser.java](Week1_Loops/ATMDispenser.java)  
 
 🔐 Login Prompt (Scanner Input)  
-**File:** [Week2_Scanner/LoginPrompt.java](Week2_Scanner/LoginPrompt.java)
+**File:** [Week2_Scanner/LoginPrompt.java](Week2_Scanner/LoginPrompt.java)  
 
 👴 Age-Based Advice (If-Else If)  
-**File:** [Week3_Conditions/IfElseIf.java](Week3_Conditions/IfElseIf.java) 
+**File:** [Week3_Conditions/IfElseIf.java](Week3_Conditions/IfElseIf.java)  
 
 🧠 Description:  
 - Asks the user to enter their age  
@@ -54,12 +60,12 @@ I'm currently learning Java from scratch and using this repo to track my progres
 - Fun logic based on age (drinking/smoking humor)  
 
 📌 Practices:  
-- Conditional branching (if, else if, else)  
+- Conditional branching (`if`, `else if`, `else`)  
 - Numeric comparisons  
 - Scanner input + control flow  
 
 🧮 Payroll System (Methods)  
-**File:** [Week4_Methods/Payroll.java](Week4_Methods/Payroll.java)
+**File:** [Week4_Methods/Payroll.java](Week4_Methods/Payroll.java)  
 
 🧠 Description:  
 User Inputs:  
@@ -88,10 +94,10 @@ Formatting: Outputs formatted as ₱ with two decimal places
 - Scanner input & System.out.printf  
 
 🎬 Movie Info (Constructors)  
-**Files:** [Week5_Constructors/Movie.java](Week5_Constructors/Movie.java), [Week5_Constructors/Constructor.java](Week5_Constructors/Constructor.java) 
+**Files:** [Week5_Constructors/Movie.java](Week5_Constructors/Movie.java), [Week5_Constructors/Constructor.java](Week5_Constructors/Constructor.java)  
 
 👨‍💼 Employee Info (Constructors)  
-**Files:** [Week5_Constructors/Employee.java](Week5_Constructors/Employee.java), [Week5_Constructors/ConstructorEmployee.java](Week5_Constructors/ConstructorEmployee.java)
+**Files:** [Week5_Constructors/Employee.java](Week5_Constructors/Employee.java), [Week5_Constructors/ConstructorEmployee.java](Week5_Constructors/ConstructorEmployee.java)  
 
 🧠 Description:  
 - Define classes (`Movie`, `Employee`)  
@@ -104,7 +110,7 @@ Formatting: Outputs formatted as ₱ with two decimal places
 - `this` keyword usage  
 
 🎥 Arrays Sample (Movies List)  
-**File:** [Week6_Arrays/ArraysSample.java](Week6_Arrays/ArraysSample.java) 
+**File:** [Week6_Arrays/ArraysSample.java](Week6_Arrays/ArraysSample.java)  
 
 🧠 Description:  
 - Store and display multiple movie names  
@@ -116,8 +122,20 @@ Formatting: Outputs formatted as ₱ with two decimal places
 - Index access  
 - Iterating with loops  
 
+🏢 Static Example (Employee)  
+**Files:** [Week7_Static/Employee.java](Week7_Static/Employee.java), [Week7_Static/StaticExample.java](Week7_Static/StaticExample.java)  
+
+🧠 Description:  
+- Shows the difference between instance variables and static variables  
+- Demonstrates how static `companyName` is shared across all employees  
+- Updates the static field and reflects the change for all instances  
+
+📌 Practices:  
+- Static fields  
+- Instance vs class variables  
+- Accessing static fields via class name  
+
 👋 About Me
 Hi! I’m John, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
 
-✨ More files added every week. Follow along as I level up in Java!
