@@ -41,6 +41,13 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ✅ Change a static field and see it reflected in all instances
 ✅ Practice with Employee → StaticExample program
 
+🟢 Week 8: Getters and Setters
+✅ Learn how to use getters to safely access private fields
+✅ Learn how to use setters to control and validate changes
+✅ Understand encapsulation (hiding data inside the class)
+✅ Apply `private` fields with `public` getters & setters
+✅ Practice with Player class: setting name, age, and color
+
 📁 Projects and Challenges
 🔁 Vending Machine (While Loop)  
 **File:** [Week1_Loops/VendingMachine.java](Week1_Loops/VendingMachine.java)  
@@ -54,44 +61,8 @@ I'm currently learning Java from scratch and using this repo to track my progres
 👴 Age-Based Advice (If-Else If)  
 **File:** [Week3_Conditions/IfElseIf.java](Week3_Conditions/IfElseIf.java)  
 
-🧠 Description:  
-- Asks the user to enter their age  
-- Uses multiple if and else if branches to give personalized output  
-- Fun logic based on age (drinking/smoking humor)  
-
-📌 Practices:  
-- Conditional branching (`if`, `else if`, `else`)  
-- Numeric comparisons  
-- Scanner input + control flow  
-
 🧮 Payroll System (Methods)  
 **File:** [Week4_Methods/Payroll.java](Week4_Methods/Payroll.java)  
-
-🧠 Description:  
-User Inputs:  
-- Basic Pay  
-- Work Days  
-- Hours per Day  
-- Allowance  
-- Premium  
-- Loan Deduction  
-- Overtime Hours  
-
-Calculations via methods:  
-- `perHour(basicPay, workDays, workHours)` → hourly rate  
-- `perDay(basicPay, workDays)` → daily rate  
-- `addMonthly(basicPay, allowance, premium)` → monthly pay  
-- `calculateTax(basicPay, taxRate)` → tax amount  
-- `calculateNetPay(monthlyPay, tax)` → net pay  
-- `totalPay(monthlyPay, tax, loan)` → final take-home  
-
-Formatting: Outputs formatted as ₱ with two decimal places  
-
-📌 Practices:  
-- Method creation & calls  
-- Parameter passing & return values  
-- Modular code design  
-- Scanner input & System.out.printf  
 
 🎬 Movie Info (Constructors)  
 **Files:** [Week5_Constructors/Movie.java](Week5_Constructors/Movie.java), [Week5_Constructors/Constructor.java](Week5_Constructors/Constructor.java)  
@@ -99,43 +70,26 @@ Formatting: Outputs formatted as ₱ with two decimal places
 👨‍💼 Employee Info (Constructors)  
 **Files:** [Week5_Constructors/Employee.java](Week5_Constructors/Employee.java), [Week5_Constructors/ConstructorEmployee.java](Week5_Constructors/ConstructorEmployee.java)  
 
-🧠 Description:  
-- Define classes (`Movie`, `Employee`)  
-- Use constructors to initialize object data  
-- Display object info with methods  
-
-📌 Practices:  
-- Constructors  
-- Object creation with parameters  
-- `this` keyword usage  
-
 🎥 Arrays Sample (Movies List)  
 **File:** [Week6_Arrays/ArraysSample.java](Week6_Arrays/ArraysSample.java)  
-
-🧠 Description:  
-- Store and display multiple movie names  
-- Access array elements using indexes  
-- Loop through arrays with `for` and `for-each`  
-
-📌 Practices:  
-- Arrays  
-- Index access  
-- Iterating with loops  
 
 🏢 Static Example (Employee)  
 **Files:** [Week7_Static/Employee.java](Week7_Static/Employee.java), [Week7_Static/StaticExample.java](Week7_Static/StaticExample.java)  
 
+🎮 Player Info (Getters and Setters)  
+**Files:** [Week8_GettersSetters/Player.java](Week8_GettersSetters/Player.java), [Week8_GettersSetters/GettersSetters.java](Week8_GettersSetters/GettersSetters.java)  
+
 🧠 Description:  
-- Shows the difference between instance variables and static variables  
-- Demonstrates how static `companyName` is shared across all employees  
-- Updates the static field and reflects the change for all instances  
+- Defines `Player` class with private fields  
+- Uses setters to assign values with validation (e.g., age > 0)  
+- Uses getters to safely read values  
+- Demonstrates encapsulation in action  
 
 📌 Practices:  
-- Static fields  
-- Instance vs class variables  
-- Accessing static fields via class name  
+- Encapsulation  
+- Data validation with setters  
+- `private` fields + `public` access methods  
 
 👋 About Me
 Hi! I’m John, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
-
