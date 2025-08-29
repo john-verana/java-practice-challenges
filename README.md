@@ -42,11 +42,13 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ✅ Practice with Employee → StaticExample program
 
 🟢 Week 8: Getters and Setters
-✅ Learn how to use getters to safely access private fields
-✅ Learn how to use setters to control and validate changes
-✅ Understand encapsulation (hiding data inside the class)
-✅ Apply `private` fields with `public` getters & setters
-✅ Practice with Player class: setting name, age, and color
+✅ Learn how to use getters to safely access private fields  
+✅ Learn how to use setters to control and validate changes  
+✅ Understand encapsulation (hiding data inside the class)  
+✅ Apply `private` fields with `public` getters & setters  
+✅ Practice with Player class: setting name, age, and color  
+✅ Build a small **BankAccount** app using getters/setters with validation  
+✅ Use `Scanner` input to set fields via setters (and block invalid values)  
 
 📁 Projects and Challenges
 🔁 Vending Machine (While Loop)  
@@ -79,17 +81,23 @@ I'm currently learning Java from scratch and using this repo to track my progres
 🎮 Player Info (Getters and Setters)  
 **Files:** [Week8_GettersSetters/Player.java](Week8_GettersSetters/Player.java), [Week8_GettersSetters/GettersSetters.java](Week8_GettersSetters/GettersSetters.java)  
 
-🧠 Description:  
-- Defines `Player` class with private fields  
-- Uses setters to assign values with validation (e.g., age > 0)  
-- Uses getters to safely read values  
-- Demonstrates encapsulation in action  
+💳 Bank Account (Getters & Setters + Validation)  
+**Files:** [Week8_GettersSetters/BankAccount.java](Week8_GettersSetters/BankAccount.java), [Week8_GettersSetters/Main.java](Week8_GettersSetters/Main.java)  
 
-📌 Practices:  
+🧠 **Description:**  
+- Encapsulates data with **private** fields: `accountHolder`, `balance`  
+- Uses **getters** to read values and **setters** to update them  
+- Adds **validation** in `setBalance(double)` to prevent negative balances  
+- Populates fields using **Scanner** input in `Main` and prints summary  
+
+📌 **Practices:**  
 - Encapsulation  
-- Data validation with setters  
-- `private` fields + `public` access methods  
+- Getters & setters with validation  
+- Using setters from another class  
+- Basic console I/O with `Scanner`  
 
 👋 About Me
 Hi! I’m John, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
+
+
