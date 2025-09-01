@@ -50,6 +50,13 @@ I'm currently learning Java from scratch and using this repo to track my progres
 ✅ Build a small **BankAccount** app using getters/setters with validation  
 ✅ Use `Scanner` input to set fields via setters (and block invalid values)  
 
+🟠 Week 9: Inheritance
+✅ Learn how to create a **parent class (Employee)** and extend it with **child classes (FullTimeEmployee, PartTimeEmployee)**  
+✅ Use `super()` to call the parent constructor from subclasses  
+✅ Override or extend behavior in child classes with new methods  
+✅ Accept **user input** to build different types of employees  
+✅ Demonstrate **code reuse** and specialization through inheritance  
+
 📁 Projects and Challenges
 🔁 Vending Machine (While Loop)  
 **File:** [Week1_Loops/VendingMachine.java](Week1_Loops/VendingMachine.java)  
@@ -84,20 +91,25 @@ I'm currently learning Java from scratch and using this repo to track my progres
 💳 Bank Account (Getters & Setters + Validation)  
 **Files:** [Week8_GettersSetters/BankAccount.java](Week8_GettersSetters/BankAccount.java), [Week8_GettersSetters/Main.java](Week8_GettersSetters/Main.java)  
 
+👨‍👩‍👧 Employee Inheritance (Full-Time & Part-Time)  
+**Files:** [Week9_Inheritance/Employee.java](Week9_Inheritance/Employee.java), [Week9_Inheritance/FullTimeEmployee.java](Week9_Inheritance/FullTimeEmployee.java), [Week9_Inheritance/PartTimeEmployee.java](Week9_Inheritance/PartTimeEmployee.java), [Week9_Inheritance/Main.java](Week9_Inheritance/Main.java)  
+
 🧠 **Description:**  
-- Encapsulates data with **private** fields: `accountHolder`, `balance`  
-- Uses **getters** to read values and **setters** to update them  
-- Adds **validation** in `setBalance(double)` to prevent negative balances  
-- Populates fields using **Scanner** input in `Main` and prints summary  
+- `Employee` is the base class with common fields (name, ID, base salary)  
+- `FullTimeEmployee` adds benefits + annual salary calculation  
+- `PartTimeEmployee` adds hours worked + monthly pay calculation  
+- `Main` class uses `Scanner` to input details for both employee types  
+- Shows **polymorphism in action** by calling parent/child methods  
 
 📌 **Practices:**  
-- Encapsulation  
-- Getters & setters with validation  
-- Using setters from another class  
-- Basic console I/O with `Scanner`  
+- Inheritance (`extends`)  
+- `super()` constructor calls  
+- Reuse of fields and methods  
+- Method specialization in child classes  
+- Scanner input for dynamic object creation  
 
 👋 About Me
 Hi! I’m John, a self-taught aspiring Java backend/web developer.
 This repository is my personal learning space to share progress, stay consistent, and grow publicly.
 
-
+✨ More files added every week. Follow along as I level up in Java!
